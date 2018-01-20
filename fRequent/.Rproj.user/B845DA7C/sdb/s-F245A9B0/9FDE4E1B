@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#' @title Convert zoo-object to data frame\n#'\n#' @description Converting zoo-object to data frame with proper indexing of time column and column names\n#'\n#' @param value must be a zoo-object\n#' @references Marvin Reich (2017), mreich@@posteo.de\n# ' @examples examples MISSING\n\nzootodf <- function(value) {\n  df <- as.data.frame(value)\n  df$time <- index(value) #create a Date column\n  rownames(df) <- NULL #so row names not filled with dates\n  df <- df[,c(ncol(df), 1:(ncol(df)-1))] #reorder columns so Date first\n  return(df)\n}\n",
+    "created" : 1516455890352.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1844864024",
+    "id" : "9FDE4E1B",
+    "lastKnownWriteTime" : 1516455753,
+    "last_content_update" : 1516455753,
+    "path" : "~/GitHub/fRequent/fRequent/R/zootodf.R",
+    "project_path" : "R/zootodf.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#'@title fRequent\n#'@name fRequent\n#'@docType package\n#'@author JWM Pullens\n\n#'@description The fRequent R package is a package with the frequently used and usefull functions in R.\n",
+    "created" : 1516455936090.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2654914910",
+    "id" : "D209D87A",
+    "lastKnownWriteTime" : 1516455994,
+    "last_content_update" : 1516455994028,
+    "path" : "~/GitHub/fRequent/fRequent/R/fRequent.R",
+    "project_path" : "R/fRequent.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

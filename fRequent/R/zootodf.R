@@ -5,7 +5,6 @@
 #' @param value must be a zoo-object
 #' @import zoo
 #' @references Marvin Reich (2017), mreich@@posteo.de
-# ' @examples examples MISSING
 #' @export
 
 zootodf <- function(value) {

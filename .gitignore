@@ -9,7 +9,7 @@
 .Rproj.user/
 
 # Docs
-docs/*
+docs/
 
 # Project file
 fRequent.Rproj

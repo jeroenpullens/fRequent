@@ -5,7 +5,8 @@ Authors@R: person("J.W.M.", "Pullens", email = "jeroenpullens@gmail.com", role =
 Date: 2018-01-20
 Description: Frequently used and useful functions in R.
 Depends: R (>= 3.0.0), zoo
-Suggests: R.rsp
+Suggests: R.rsp,
+          pkgdown
 VignetteBuilder: R.rsp
 License: GPL
 Maintainer: J.W.M. Pullens <jeroenpullens@gmail.com>

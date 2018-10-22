@@ -8,9 +8,12 @@
 #' @import graphics
 #' @export
 
-plot_per_column=function(dataframe,vabline=FALSE,habline=FALSE){
+plot_per_column=function(dataframe,vabline=FALSE,habline=FALSE,hist=FALSE){
   for(i in 1:dim(dataframe)[2]){
-    plot(dataframe[,i],ylab=names(dataframe)[i])
+    if(hist==TRUE){
+      hist(dataframe[,i],ylab=names(dataframe)[i])
+    }else{
+    plot(dataframe[,i],ylab=names(dataframe)[i])}
     if(vabline!=FALSE){
       abline(v=vabline,col=2)
     }

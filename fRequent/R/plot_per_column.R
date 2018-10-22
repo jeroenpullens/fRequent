@@ -5,6 +5,7 @@
 #' @param dataframe The dataframe that needs to be plotted
 #' @param vabline Option to plot a vertical line, the color is set to red (DEFAULT=FALSE)
 #' @param habline Option to plot a horizontal line, the color is set to red (DEFAULT=FALSE)
+#' @param hist Option to plot the dataframe as a histogram, (DEFAULT=FALSE)
 #' @import graphics
 #' @export
 

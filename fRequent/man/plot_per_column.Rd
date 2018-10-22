@@ -4,7 +4,8 @@
 \alias{plot_per_column}
 \title{Plotting per column}
 \usage{
-plot_per_column(dataframe, vabline = FALSE, habline = FALSE)
+plot_per_column(dataframe, vabline = FALSE, habline = FALSE,
+  hist = FALSE)
 }
 \arguments{
 \item{dataframe}{The dataframe that needs to be plotted}
@@ -12,6 +13,8 @@ plot_per_column(dataframe, vabline = FALSE, habline = FALSE)
 \item{vabline}{Option to plot a vertical line, the color is set to red (DEFAULT=FALSE)}
 
 \item{habline}{Option to plot a horizontal line, the color is set to red (DEFAULT=FALSE)}
+
+\item{hist}{Option to plot the dataframe as a histogram, (DEFAULT=FALSE)}
 }
 \description{
 Plotting one column at a time in R to investigate a dataframe with raw data

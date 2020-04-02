@@ -3,6 +3,7 @@
 export(colStats)
 export(dataframe_numeric)
 export(plot_per_column)
+export(readkey)
 export(zootodf)
 import(graphics)
 import(zoo)

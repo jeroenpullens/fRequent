@@ -4,8 +4,7 @@
 \alias{plot_per_column}
 \title{Plotting per column}
 \usage{
-plot_per_column(dataframe, vabline = FALSE, habline = FALSE,
-  hist = FALSE)
+plot_per_column(dataframe, vabline = FALSE, habline = FALSE, hist = FALSE)
 }
 \arguments{
 \item{dataframe}{The dataframe that needs to be plotted}

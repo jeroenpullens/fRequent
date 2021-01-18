@@ -1,6 +1,3 @@
-before_install:
- - cd fRequent
-
 language: r
 r:
   - oldrel

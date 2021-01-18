@@ -13,5 +13,5 @@
 
 cb <- function(df, sep=",", dec=".", max.size=(200*1000)){
   # Copy a data.frame to clipboard
-  write.table(df, paste0("clipboard-", formatC(max.size, format="f", digits=0)), sep=sep, row.names=FALSE, dec=dec)
+  utils::write.table(df, paste0("clipboard-", formatC(max.size, format="f", digits=0)), sep=sep, row.names=FALSE, dec=dec)
 }
